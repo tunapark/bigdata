@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.button {
+  display: flex;
+  padding: 5px;
+}
+</style>
+</head>
+
+<body>
+<div class="row">
+	<h3>빅데이터 대시보드</h3>
+</div>
+<div class="row">
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdatacomputing/seoul.html';">서울</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdatacomputing/busan.html';">부산</button>
+	</div>
+	
+</div>
+
+/*첫번째 그래프 줄 */
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0.html" height="400" width="100%"></iframe>
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0_1.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0_2.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0_3.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0_4.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+
+/*세번째 그래프 줄 */
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="3.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="4.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="5.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="6.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
