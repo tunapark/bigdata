@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  padding: 5px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.button {
+  display: flex;
+  padding: 5px;
+}
+</style>
+</head>
+
+<body>
+<div class="row">
+	<h3>문화 데이터 대시보드 플랫폼</h3>
+</div>
+<div class="row">
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/all/all.html';">전국</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/seoul/seoul.html';">서울</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/busan/busan.html';">부산</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/kyunggi/kyunggi.html';">경기</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/incheon/incheon.html';">인천</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/daegu/daegu.html';">대구</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/daejeon/daejeon.html';">대전</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/gwangju/gwangju.html';">광주</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/ulsan/ulsan.html';">울산</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/jeju/jeju.html';">제주</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/chungnam/chungnam.html';">충남</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/chungbuk/chungbuk.html';">충북</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/kyungnam/kyungnam.html';">경남</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/kyungbuk/kyungbuk.html';">경북</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/jeonnam/jeonnam.html';">전남</button>
+	</div>
+	<div class="button">
+		<button onclick="window.location.href='https://tunapark.github.io/bigdata/jeonbuk/jeonbuk.html';">전북</button>
+	</div>
+</div>
+
+<br><br><br><br>
+<p>1. 문화 수요와 공급 : 각 행정구역별로 해당 <b>광역시도의 평균값에 비해 어디에 위치하는지</b> 비교분석하는 그래프입니다. </p>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0.html" height="400" width="100%"></iframe>
+
+<br><br><br><br>
+<p>2. 지역문화지수의 세부지수들 : 각 행정구역별로 해당 <b>각종 세부지수들을</b> 비교분석하는 그래프입니다. </p>
+
+
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="0_new.html" height="400" width="100%"></iframe>
+
+<p>문화정책지수: 중앙정부 광역자치단체 기획 발주 문화관련 사업 선정 건 수,전체 문화 예술사업 중 기초자치단체 자체 문화사업 비율,
+지역문화진흥기관 설치 개수,문화관련 조례 제정 건 수,기준연도 총예산 대비 문화관련 예산 비율,인구 1명당 문화관련 예산액 등</p>
+
+<p>문화자원지수: 문화유산 보존 관련 조례 제정 유무,전체 문화 관련 예산 대비 문화유산보존 관리 예산 비율,
+인구 천 명당 문화기반시설 수,인구 만 명당 생활문화시설 수,전체 문화기반시설 중 배리어프리 인증 비율
+공연장 전시장 공공도서관 내 임산부 등을 위한 휴게시설 비율 등</p>
+
+<p>문화향유지수: 인구 만 명당 자체 기획 문화예술 공연 건 수,문화가 있는 날 기초자치단체 기획사업 건 수,통합문화이용권 이용률 및 카드 발급률
+장애인 노인 저소득자 위기청소년 교정시설 대상 특화 문화프로그램 건 수,다문화 새터민 성소수자 이주노동자 대상 특화 문화프로그램 건 수 등</p>
+
+<p>문화활동지수: 인구 만 명당 자체 기획 문화예술 공연 건 수, 문화가 있는 날 기초자치단체 기획사업 건 수,인구 만 명당 등록예술인 수
+학예전문인력 및 문화재 관리인력,인구 만 명당 문화예술교육사 수, 문화관광해설사 수 등</p>
+
+<br><br><br><br>
+<p>3. 지역별 문화예술행사 관련 설문조사 결과 각 <b>장르별 수요를</b> 비교분석하는 그래프입니다. </p>
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="3.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="4.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="5.html" height="400" width="100%"></iframe>
+  </div>
+  <div class="column">
+    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="6.html" height="400" width="100%"></iframe>
+  </div>
+</div>
+<p>각 막대의 첫번째 부분은 구입및 대여, 두번째는 직접 관람, 세번째는 기타입니다. </p>
+
+
+</body>
+</html>
